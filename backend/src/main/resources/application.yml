@@ -1,0 +1,27 @@
+####spring####
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/library
+    username: user
+    password: Password123
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      leakDetectionThreshold: 60000
+      maximumPoolSize: 10
+      minimumIdle: 5
+  liquibase:
+    change-log: classpath:db/db.changelog-master.yaml
+  graphql:
+    graphiql:
+      enabled: true
+      path: /graphiql
+    path: /graphql
+
+
+
+
+logging:
+  level:
+    org:
+      jooq: DEBUG

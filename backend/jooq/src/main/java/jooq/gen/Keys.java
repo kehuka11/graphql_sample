@@ -6,8 +6,14 @@ package jooq.gen;
 
 import jooq.gen.tables.Author;
 import jooq.gen.tables.Book;
+import jooq.gen.tables.LoanHistory;
+import jooq.gen.tables.ReturnHistory;
+import jooq.gen.tables.User;
 import jooq.gen.tables.records.AuthorRecord;
 import jooq.gen.tables.records.BookRecord;
+import jooq.gen.tables.records.LoanHistoryRecord;
+import jooq.gen.tables.records.ReturnHistoryRecord;
+import jooq.gen.tables.records.UserRecord;
 
 import org.jooq.TableField;
 import org.jooq.UniqueKey;
@@ -28,4 +34,7 @@ public class Keys {
 
     public static final UniqueKey<AuthorRecord> KEY_AUTHOR_PRIMARY = Internal.createUniqueKey(Author.AUTHOR, DSL.name("KEY_author_PRIMARY"), new TableField[] { Author.AUTHOR.AUTHORID }, true);
     public static final UniqueKey<BookRecord> KEY_BOOK_PRIMARY = Internal.createUniqueKey(Book.BOOK, DSL.name("KEY_book_PRIMARY"), new TableField[] { Book.BOOK.ID }, true);
+    public static final UniqueKey<LoanHistoryRecord> KEY_LOAN_HISTORY_PRIMARY = Internal.createUniqueKey(LoanHistory.LOAN_HISTORY, DSL.name("KEY_loan_history_PRIMARY"), new TableField[] { LoanHistory.LOAN_HISTORY.LOAN_ID }, true);
+    public static final UniqueKey<ReturnHistoryRecord> KEY_RETURN_HISTORY_PRIMARY = Internal.createUniqueKey(ReturnHistory.RETURN_HISTORY, DSL.name("KEY_return_history_PRIMARY"), new TableField[] { ReturnHistory.RETURN_HISTORY.RETURN_ID }, true);
+    public static final UniqueKey<UserRecord> KEY_USER_PRIMARY = Internal.createUniqueKey(User.USER, DSL.name("KEY_user_PRIMARY"), new TableField[] { User.USER.USER_ID }, true);
 }

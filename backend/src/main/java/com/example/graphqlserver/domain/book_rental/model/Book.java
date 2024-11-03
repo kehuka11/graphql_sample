@@ -1,22 +1,11 @@
 package com.example.graphqlserver.domain.book_rental.model;
 
-import lombok.Data;
+import com.example.graphqlserver.domain.book_rental.exception.InvalidBookException;
 
-@Data
-public class Book {
-    /** ID */
-    private BookId id;
-
-    /** タイトル */
-    private String title;
-
-    /** 著者 */
-    private Author author;
-
-    public Book(BookId id, String title, Author author) {
-        this.id = id;
-        this.title = title;
-        this.author = author;
+public record Book(BookId id, String title, Author author) {
+  public Book {
+    if (title.length() < 1) {
+      throw new InvalidBookException("Invalid Book title length", "title");
     }
-
+  }
 }

@@ -1,0 +1,253 @@
+
+[
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e22",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc71",
+		"loanId" : "027aa1da-2075-4907-8cc5-fc0d5bcd0101"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e24",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc73",
+		"loanId" : "033a992f-3dcf-4aa1-b527-d5a3c525786b"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e26",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc75",
+		"loanId" : "08a4f73a-5721-4550-b31b-8975ea305c33"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e25",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc74",
+		"loanId" : "0fe40a01-f789-4844-bda3-069f35945ca3"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e24",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc73",
+		"loanId" : "18767e4a-90f3-4016-bc37-56c43d22333e"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e25",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc74",
+		"loanId" : "1cee9821-d826-482e-931b-2caa5995b25b"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e23",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc72",
+		"loanId" : "24da711c-761b-4e4d-a711-9c7d3da1b4b7"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e25",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc74",
+		"loanId" : "2a6fe445-7126-4a58-b108-cd8613777f3a"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e25",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc74",
+		"loanId" : "2b9b5b81-9ff2-4cca-977f-327e09cec181"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e22",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc71",
+		"loanId" : "2dff2740-1d6f-4787-abcc-873aa1517ced"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e25",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc74",
+		"loanId" : "37889162-f091-4ef3-916d-484797d7eb97"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e25",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc74",
+		"loanId" : "37d139b7-c23a-4a38-a445-1dc8629bd980"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e22",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc71",
+		"loanId" : "3f93977d-72d7-4c9a-9f82-3c84d10c09b6"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e23",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc72",
+		"loanId" : "507f1335-db31-4b34-add3-971de07ac90a"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e24",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc73",
+		"loanId" : "50a0cb5e-84e3-42f5-892a-1f67e807910c"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e23",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc72",
+		"loanId" : "584e2cf9-4c88-4f43-bb47-b7e90ce7bd75"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e25",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc74",
+		"loanId" : "590eb241-5f84-4d20-a6b2-94df234b7b18"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e22",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc71",
+		"loanId" : "67ef44b4-2969-41c8-9c38-90a795b898b5"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e23",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc72",
+		"loanId" : "6891f79a-8e70-425e-9693-542e5b9f18ea"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e26",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc75",
+		"loanId" : "6a38caaa-29db-4942-ba58-3859c78a6ea6"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e24",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc73",
+		"loanId" : "744273d4-5e33-420a-a984-f455197cb738"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e24",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc73",
+		"loanId" : "7d98315f-45d3-4bfe-8bbc-53eec4d73bb7"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e26",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc75",
+		"loanId" : "8657a858-d446-4fc0-a92c-2630b1e925d9"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e26",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc75",
+		"loanId" : "8816d3cc-a673-497d-8ec0-150859e2e63f"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e22",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc71",
+		"loanId" : "884a5c1e-f942-4770-8291-05972376bebd"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e23",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc72",
+		"loanId" : "88a150df-1176-4b4f-bb09-3f6e27528a3c"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e23",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc72",
+		"loanId" : "89b986b4-6a91-469b-b847-6a56561d33b4"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e26",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc75",
+		"loanId" : "8decf7ee-c60b-4672-9da3-e5dbf69d5849"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e22",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc71",
+		"loanId" : "90b92439-4139-46ae-aaa6-2c76411b22ae"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e26",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc75",
+		"loanId" : "947457f2-b18b-4b76-8274-6da455603427"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e22",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc71",
+		"loanId" : "94b66884-845b-477d-b880-025641dc7093"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e23",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc72",
+		"loanId" : "991d4cd7-c528-4fd8-b908-10c12e5f5fa4"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e26",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc75",
+		"loanId" : "a4f58827-57d0-453b-9abc-c33f2f49e50a"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e22",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc71",
+		"loanId" : "a67bc362-f8d0-407c-ab2f-880697594237"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e23",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc72",
+		"loanId" : "a8d9ecd4-3238-49cc-a4d8-1d7b44982dd6"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e24",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc73",
+		"loanId" : "ba20fe0e-7287-4398-a818-a6cb910e16b4"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e25",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc74",
+		"loanId" : "bc0252ed-a569-4766-98b4-669d41d54f25"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e22",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc71",
+		"loanId" : "c4aed8ee-24fc-49be-b30c-887f4745c60f"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e22",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc71",
+		"loanId" : "d1efb6aa-707e-48d2-a35a-e4fc87bea168"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e23",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc72",
+		"loanId" : "d1fd2d93-1e8b-41cb-97cd-1a253f03384e"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e23",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc72",
+		"loanId" : "d718e6de-b59b-4edd-9352-de5c5be00277"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e25",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc74",
+		"loanId" : "e1388598-5d3d-48a9-85e9-ec7a645f1970"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e24",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc73",
+		"loanId" : "eeef58af-1cb3-463f-b5e6-38db4d962352"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e24",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc73",
+		"loanId" : "ef33d943-8f02-4970-8665-e576c15835c1"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e24",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc73",
+		"loanId" : "f6701fab-f0e8-46ce-a466-14bc4367b92e"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e26",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc75",
+		"loanId" : "f725c0e8-81c9-43f6-a220-128a34ab9274"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e26",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc75",
+		"loanId" : "f8fb75d6-7295-43d8-ae75-5a0174fe9e60"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e24",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc73",
+		"loanId" : "faa16edd-02a6-43c7-87e2-31f4b3a53aa2"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e25",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc74",
+		"loanId" : "fb348c97-a9f3-4a0d-981c-6b1c4b70359b"
+	},
+	{
+		"bookId" : "20c22160-a72f-4b3b-9bf2-0d6832934e26",
+		"userId" : "usebc9e6634-89c6-4e93-b2c7-049a1e53cc75",
+		"loanId" : "ff4dae4e-0f67-4e01-9cf0-16ce9e7abc33"
+	}
+]

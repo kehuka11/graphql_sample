@@ -5,6 +5,8 @@ plugins {
 	id("com.netflix.dgs.codegen") version "6.2.1"
 	id("nu.studer.jooq") version "8.0"
 	id("org.flywaydb.flyway") version "8.0.1"
+	id("com.github.spotbugs") version "6.0.8"
+	id ("com.diffplug.spotless") version "6.7.2"
 }
 
 group = "graphql.sample"
@@ -37,6 +39,8 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-graphql")
 	implementation("org.springframework.boot:spring-boot-starter-jooq")
 	implementation("org.springframework.boot:spring-boot-starter-web")
+	implementation("org.jetbrains:annotations:24.0.0")
+	implementation("org.jetbrains:annotations:24.0.0")
 	compileOnly("org.projectlombok:lombok")
 	runtimeOnly("com.mysql:mysql-connector-j")
 	annotationProcessor("org.projectlombok:lombok")
@@ -47,13 +51,21 @@ dependencies {
 	jooqGenerator("mysql:mysql-connector-java:8.0.33")
 	jooqGenerator("jakarta.xml.bind:jakarta.xml.bind-api:4.0.0")
 	implementation(project(":jooq"))
+	implementation("com.diffplug.spotless:spotless-plugin-gradle:6.7.2")
 }
 
+apply(plugin = "com.diffplug.spotless")
 
 tasks.withType<Test> {
 	useJUnitPlatform()
 }
 
+spotless {
+	java {
+		googleJavaFormat()
+		removeUnusedImports()
+	}
+}
 
 
 

@@ -1,0 +1,1 @@
+ALTER TABLE return_history ADD `loan_id` varchar(255) NOT NULL;

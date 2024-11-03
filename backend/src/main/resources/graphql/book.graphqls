@@ -1,13 +1,32 @@
 type Query {
-    bookById(id: ID!): Book
+    searchBookById(id: ID!): Book
     authorById(id: ID!): Author
-    searchBooks(id: ID, count: Int): [Book]
+    searchBooks(id: ID, count: Int!): [Book]
+}
+
+type Mutation {
+    registerBook(title: String!, author: AuthorInput!): Book!
+    registerBookV2(bookList: [BookInput]!): Int!
+    loan(bookId: String!, userId: String!): String!
+    returnBook(bookId: String!, userId: String!, loanId: String!): String!
+}
+
+input BookInput {
+    title: String!
+    author: AuthorInput!
+}
+
+input AuthorInput {
+    id: ID!
+    firstName: String!
+    lastName: String!
 }
 
 type Book {
-    id: BookId
+    id: ID!
     title: String!
-    author: Author!
+    author: Author
+    error: InvalidError
 }
 
 type BookId {
@@ -18,4 +37,13 @@ type Author {
     id: ID!
     firstName: String!
     lastName: String!
+}
+
+interface DomainError {
+    message: String
+}
+
+type InvalidError implements DomainError{
+    message: String
+    field: String
 }

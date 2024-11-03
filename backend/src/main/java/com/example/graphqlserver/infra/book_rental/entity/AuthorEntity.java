@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 @Data
 public class AuthorEntity {
-    private String authorId;
-    private String firstName;
-    private String lastName;
+  private String authorId;
+  private String firstName;
+  private String lastName;
 }

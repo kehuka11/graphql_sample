@@ -9,6 +9,9 @@ import java.util.List;
 
 import jooq.gen.tables.Author;
 import jooq.gen.tables.Book;
+import jooq.gen.tables.LoanHistory;
+import jooq.gen.tables.ReturnHistory;
+import jooq.gen.tables.User;
 
 import org.jooq.Catalog;
 import org.jooq.Table;
@@ -39,6 +42,21 @@ public class Library extends SchemaImpl {
     public final Book BOOK = Book.BOOK;
 
     /**
+     * The table <code>library.loan_history</code>.
+     */
+    public final LoanHistory LOAN_HISTORY = LoanHistory.LOAN_HISTORY;
+
+    /**
+     * The table <code>library.return_history</code>.
+     */
+    public final ReturnHistory RETURN_HISTORY = ReturnHistory.RETURN_HISTORY;
+
+    /**
+     * The table <code>library.user</code>.
+     */
+    public final User USER = User.USER;
+
+    /**
      * No further instances allowed
      */
     private Library() {
@@ -55,7 +73,10 @@ public class Library extends SchemaImpl {
     public final List<Table<?>> getTables() {
         return Arrays.asList(
             Author.AUTHOR,
-            Book.BOOK
+            Book.BOOK,
+            LoanHistory.LOAN_HISTORY,
+            ReturnHistory.RETURN_HISTORY,
+            User.USER
         );
     }
 }

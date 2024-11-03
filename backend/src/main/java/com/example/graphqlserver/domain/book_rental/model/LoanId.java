@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 import lombok.Getter;
 
 @Getter
-public class BookId {
+public class LoanId {
 
   private static final String UUID_REGEX =
       "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$";
@@ -14,7 +14,7 @@ public class BookId {
   /** ID */
   private UUID id;
 
-  public BookId(String id) {
+  public LoanId(String id) {
     this.id = convertId(id);
   }
 
